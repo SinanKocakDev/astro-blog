@@ -1,0 +1,20 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import BackToPrevious from "@components/BackToPrevious.astro";
+import { SITE } from "@consts";
+---
+
+<Layout title="Hakkımda" description={SITE.DESCRIPTION}>
+  <Container>
+    <div class="mt-16 grid place-items-center gap-3">
+      <h4 class="animate text-2xl font-semibold text-black dark:text-white">
+        Burası hakkımda sayfası
+      </h4>
+      <p>Hep merak eden biri oldum. Merakımı gidermekle ömrüm geçti diyebilirim. Aklıma takılan "ulan bu nasıl oluyor" sorusunun cevabını hep bulmaya çalıştım. İşin ucunda kimi zaman batıl kimi zaman gerçekle karşılaşsamda hep gerçeği öğrenmek bana huzur verdi. Çok farklı alanlarda farklı konularda merak ettiğim bir sürü şey var, hatta sırasını bekkleyen. Günlük hayatımda devamlı araştırmayı seven yeni bir şeyler öğrenmeyi misyon edinmiş biriyim. Sıradan hobilerim var müzik film gibi.. Fakat işin teknik kısmını irdelemek hobilerimin arasında. En güzel müziği en güzel hayatı seçmek hep bizim elimizde...</p>
+      <span class="animate">
+        <BackToPrevious href="/">Go to home page</BackToPrevious>
+      </span>
+    </div>
+  </Container>
+</Layout>
