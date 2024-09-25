@@ -1,9 +1,11 @@
 ---
-title: "Projects Collection"
-description: "How to add projects to your portfolio."
-date: "2024-03-20"
+pubDatetime: 2024-09-25
+modDatetime: 2024-09-25
+title: Projects Collection
+featured: false
+draft: true
+description: How to add projects to your portfolio.
 ---
-
 ---
 
 ## Working with the `projects` collection
