@@ -12,4 +12,5 @@ content:
       - { name: title, label: Title, type: string, required: true }
       - { name: draft, label: Draft, type: boolean }
       - { name: description, label: Description, type: string }
+      - { name: date, label: Date, type: date }
       - { name: body, label: Body, type: rich-text }
