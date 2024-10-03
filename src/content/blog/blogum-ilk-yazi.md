@@ -2,7 +2,7 @@
 title: Blogum ilk yazı
 description: Blogumdaki ilk yazı
 date: 2024-10-03
-draft: false
+draft: true
 ---
 ## Pagefind search 🔎
 
